@@ -4,7 +4,7 @@
 
 - implement `index.html`
 - implement `styles.css`
-- implement `grid` layout
+- implement `flex` layout
 
 ## Designs
 
