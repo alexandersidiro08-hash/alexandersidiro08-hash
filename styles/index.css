@@ -48,7 +48,6 @@ section article {
     margin-bottom: -3rem;
 }
 
-/* should clearly label what these breakpoints represent */
 @media screen and (min-width: 375px) { /* iPhone SE, or any phone */
     .profile_image {
         width: 50%;
@@ -88,7 +87,6 @@ section article {
 }
 
 @media screen and (min-width: 1440px) { /* Desktop */
-    /* should DEFINITELY explain this in greater detail */
     body { /* space-around keeps the profile section and the description close together*/
         display: flex;
         justify-content: space-around;
