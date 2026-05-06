@@ -1,8 +1,9 @@
 body {
     background-color: rgb(0, 0, 0);
-    font-family: "Mona Sans";
+    font-family: "Mona Sans"; /* Issue: no font fallbacks!!! */
 }
 
+/* Issue: no comment. should explain how this works */
 .profile_container {
     display: flex;
     flex-direction: column;
@@ -38,6 +39,7 @@ section article {
     margin-bottom: -3rem;
 }
 
+/* should clearly label what these breakpoints represent */
 @media screen and (min-width: 375px) {
     .profile_image {
         width: 30%;
@@ -45,6 +47,7 @@ section article {
 }
 
 @media screen and (min-width: 1024px) {
+    /* should DEFINITELY explain this in greater detail */
     body {
         display: flex;
         justify-content: space-around;
