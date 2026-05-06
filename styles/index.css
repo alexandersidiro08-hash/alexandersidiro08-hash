@@ -13,7 +13,7 @@ body {
 }
 
 .profile_image {
-    width: 90%;
+    width: 70%;
     margin-top: 1rem;
 }
 
@@ -40,7 +40,7 @@ section article {
 
 @media screen and (min-width: 375px) {
     .profile_image {
-        width: 65%;
+        width: 40%;
     }
 }
 
@@ -57,6 +57,6 @@ section article {
     }
 
     .profile_image {
-        width: 60%;
+        width: 50%;
     }
 }
