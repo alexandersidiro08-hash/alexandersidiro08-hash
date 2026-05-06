@@ -19,6 +19,10 @@ body {
     margin-top: 1rem;
 }
 
+.profile_heading {
+    font-size: 1rem;
+}
+
 .profile_text {
     margin-left: 1rem;
     margin-right: 2rem;
@@ -35,19 +39,55 @@ body {
     margin-bottom: -1rem;
 }
 
+.main_text_body {
+    font-size: 1rem;
+}
+
 /*this is for fixing the gap below the intro to me*/
 section article {
     margin-bottom: -3rem;
 }
 
 /* should clearly label what these breakpoints represent */
-@media screen and (min-width: 375px) { /* Tablet */
+@media screen and (min-width: 375px) { /* iPhone SE, or any phone */
     .profile_image {
-        width: 30%;
+        width: 50%;
     }
 }
 
-@media screen and (min-width: 1024px) { /* Desktop */
+@media screen and (min-width: 768px) { /* iPad Mini */
+    .profile_text {
+        font-size: 1.2rem;
+    }
+
+    .main_text {
+        font-size: 3.5rem;
+    }
+
+    .main_text_body {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 1024px) { /* iPad Pro */
+    .profile_heading {
+        font-size: 2.5rem;
+    }
+    
+    .profile_text {
+        font-size: 1.7rem;
+    }
+
+    .main_text {
+        font-size: 4rem;
+    }
+
+    .main_text_body {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) { /* Desktop */
     /* should DEFINITELY explain this in greater detail */
     body { /* space-around keeps the profile section and the description close together*/
         display: flex;
