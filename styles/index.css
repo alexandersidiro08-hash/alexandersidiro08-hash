@@ -1,9 +1,10 @@
 body {
     background-color: rgb(0, 0, 0);
-    font-family: "Mona Sans"; /* Issue: no font fallbacks!!! */
+    font-family: "Mona Sans", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Issue: no comment. should explain how this works */
+/* Without the flex-direction being set to column, the profile image and text will be organized in a row
+ which won't look good on mobile */
 .profile_container {
     display: flex;
     flex-direction: column;
@@ -40,15 +41,15 @@ section article {
 }
 
 /* should clearly label what these breakpoints represent */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) { /* Tablet */
     .profile_image {
         width: 30%;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) { /* Desktop */
     /* should DEFINITELY explain this in greater detail */
-    body {
+    body { /* space-around keeps the profile section and the description close together*/
         display: flex;
         justify-content: space-around;
         gap: 3rem;
@@ -60,6 +61,6 @@ section article {
     }
 
     .profile_image {
-        width: 30%;
+        width: 40%;
     }
 }

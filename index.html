@@ -9,13 +9,12 @@
 </head>
 <body>
     <!--Profile is here-->
-    <!-- Issue: Bad use of semantic elements (works with the desktop layout), and NOT mobile first-->
-    <aside class="profile_container">
-        <!-- Issue: This image should be replaced with a higher quality one because this one is so ugly -->
-        <img class="profile_image" src="./assets/images/ProfilePhoto.jpg" alt="Picture of Alexander"/>
+    <!-- It is outside of main because it helps make flexbox work, and will be transferred to the side when on desktop-->
+    <section class="profile_container">
+        <img class="profile_image" src="./assets/images/ProfilePhoto_LowerSize.jpg" alt="Picture of Alexander"/>
         <h2>Alexander Sidirokastritis</h2>
         <p class="profile_text">A Canadian Computer Science student searching for big opportunities.</p>
-    </aside>
+    </section>
 
     <!--Everything else is here-->
     <main class="main_container">
