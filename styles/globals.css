@@ -3,6 +3,11 @@
     src: url(../assets/fonts/Mona_Sans/MonaSans-VariableFont_wdth\,wght.ttf);
 }
 
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Mona Sans", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h3 {
     font-size: 1.7rem;
 }
