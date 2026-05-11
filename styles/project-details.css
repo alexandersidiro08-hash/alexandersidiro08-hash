@@ -1,0 +1,38 @@
+main {
+    text-align: center;
+}
+
+/* back button */
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: rgb(176, 176, 176);
+}
+
+.back_button {
+    font-size: 1.5rem;
+}
+
+.project_ss {
+    width: 100%;
+}
+
+@media screen and (min-width: 375px) { /* iPhone SE, or any phone */
+    .project_ss {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 768px) { /* iPad Mini */
+    .project_ss {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1440px) { /* Desktop */
+    .project_ss {
+        width: 40%;
+    }
+}
